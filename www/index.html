@@ -21,13 +21,75 @@
     <!-- your app's js -->
     <script src="js/app.js"></script>
   </head>
-  <body ng-app="starter">
+  <body ng-app="calculator">
 
     <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
+      <ion-header-bar class="bar-royal">
+        <h1 class="title" style="text-align:center">Calculator</h1>
       </ion-header-bar>
       <ion-content>
+        <div class="list" style="margin-top:10px">
+          <label class="item item-input">
+            <input type="text" placeholder="Enter math here">
+          </label>
+        </div>
+        <div class="row" style="margin-top: 200px">
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >1</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >2</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >3</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >/</button>
+          </div>
+        </div>
+        <div class="row" >
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >4</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >5</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >6</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >*</button>
+          </div>
+        </div>
+        <div class="row" >
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >7</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >8</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >9</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >+</button>
+          </div>
+        </div>
+        <div class="row" >
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >.</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >0</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >.</button>
+          </div>
+          <div class="col col-25" >
+            <button class="button button-positive button-outline" >=</button>
+          </div>
+        </div>
+        
       </ion-content>
     </ion-pane>
   </body>
